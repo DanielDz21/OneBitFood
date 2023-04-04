@@ -3,6 +3,7 @@ class Restaurant < ApplicationRecord
 
   has_many :product_categories
   has_many :orders
+  has_many :ratings
 
   has_one_attached :image
 
